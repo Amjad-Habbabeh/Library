@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(221, 152, 152);
+}
+
+ul {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+li {
+  margin: 1rem;
+  padding: 1rem;
+  list-style: none;
+  width: 25vw;
+  border: solid black thin;
+  border-radius: 20px;
+}
+.firstDiv {
+  display: flex;
+  flex-direction: row;
+  max-width: 95%;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.container {
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 98vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+p {
+  margin: 1rem;
+}
+button {
+  background-color: rgb(221, 152, 152);
+  border: none;
+}
+.delete {
+  /* margin: 0.5rem 0.5rem 0.5rem 2rem; */
+}
+a {
+  margin: 1rem;
+}
+h2 {
+  max-width: 90%;
+}

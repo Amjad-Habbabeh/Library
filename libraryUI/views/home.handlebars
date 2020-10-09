@@ -1,0 +1,13 @@
+<ul>
+  {{#each array}}
+  <li class="book">
+    <div class="firstDiv">
+      <h2>{{this.title}}</h2>
+      <img id={{this.id}} class="delete" src="./trash.svg" alt="deleteIcon" width="15vw" height="15vh">
+    </div>
+    <div class="secondDiv">
+      <p>{{this.author}}</p>
+    </div>
+  </li>
+  {{/each}}
+</ul>
